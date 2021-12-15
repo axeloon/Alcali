@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+img {
+    user-select: none;
+  }
+
+body { 
+  background-color: #B74DB4;
+}  
+.header {
+  background-color:  #E75FE2;
+  width: 100%;
+  border-bottom: 4px solid #D257CD;
+}
+
+.inicio {
+  height: 100px;
+  border: 0;
+}
+
+.about { 
+  float: right;
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.inventario {
+  text-align: center;
+  display: block;
+  padding: 0px 50px 25px 25px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.prod {
+  text-align: center;
+}
+
+.icon { 
+  margin: 5px;
+}
+
+.table-right {
+  list-style: none;
+}
+
+.derecha {
+  font-size: 20px; 
+  border: 2px solid black;
+  margin: 20px;
+}
